@@ -1,0 +1,43 @@
+[Sat, 11 Aug 2012 08:13:06 GMT] INFO Server starting with config: {
+  "environment": "development",
+  "workers": 1,
+  "port": 4000,
+  "debug": true,
+  "rotateWorkers": false,
+  "rotationWindow": 7200000,
+  "rotationTimeout": 300000,
+  "logDir": "/Users/babrah/node/psb/log",
+  "gracefulShutdownTimeout": 30000,
+  "heartbeatInterval": 5000,
+  "heartbeatWindow": 20000,
+  "staticFilePath": "/Users/babrah/node/psb/public",
+  "sessions": {
+    "store": "memory",
+    "key": "sid",
+    "expiry": 1209600
+  },
+  "cookieSessionKey": "sdata",
+  "metrics": null,
+  "i18n": {
+    "defaultLocale": "en-us",
+    "loadPaths": [
+      "/Users/babrah/node/psb/config/locales"
+    ]
+  },
+  "ssl": null,
+  "model": {
+    "useTimestamps": false,
+    "forceCamel": true
+  },
+  "hostname": null,
+  "db": {
+    "mongo": {
+      "db": "todos"
+    }
+  },
+  "detailedErrors": true
+}
+[Sat, 11 Aug 2012 08:13:06 GMT] INFO Creating 1 worker process.
+[Sat, 11 Aug 2012 08:13:07 GMT] INFO Server worker running in development on port 4000 with a PID of: 271
+[Sat, 11 Aug 2012 08:13:07 GMT] DEBUG LOGGING STARTED ============================================
+[Sat, 11 Aug 2012 08:13:07 GMT] DEBUG ============================================================

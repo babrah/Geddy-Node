@@ -1,0 +1,13 @@
+{
+"author": "Prabhjeet Singh <babrah@gmail.com>",
+"name": "mark",
+"version": "0.1.0",
+"dependencies": {
+"geddy": "0.4.4",
+"jake": "0.3.8"
+	},
+"engines": {
+    "node": "v0.8.x",
+    "npm" : "1.1.41"
+  }
+}
